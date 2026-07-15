@@ -83,12 +83,12 @@
    },
    "thumbnail": "/api/v1/organizations/3df91518-e3ef-412b-98af-b363eb2e2af2/workspaces/b48bfeab-5e8f-4246-9505-7b9d75f8c2aa/projects/6a534be6d63b4a729ef55cc9/thumbnail",
    "performance": {
-      "score": 0.7676161919040478,
+      "score": 0.7715736040609137,
       "task_performances": [
          {
             "task_id": "6a534be6d63b4a729ef55ccc",
             "score": {
-               "value": 0.7676161919040478,
+               "value": 0.7715736040609137,
                "metric_type": "F-Measure"
             }
          }
