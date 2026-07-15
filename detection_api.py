@@ -93,7 +93,7 @@ def home():
 
               <div class="progress-wrap" id="progressWrap">
                 <div class="progress"><div class="progress-bar" id="progressBar"></div></div>
-                <div class="progress-text" id="progressText">0%</div>
+                <div class="progress-text" id="progressText" style="color:white;">0%</div>
               </div>
 
               <div class="spinner" id="spinner"><span></span> Processing&hellip;</div>
