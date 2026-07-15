@@ -1,0 +1,106 @@
+{
+   "id": "6a534be6d63b4a729ef55cc9",
+   "name": "improved-mining-ore-real-2",
+   "creation_time": "2026-07-12T08:10:14.730000+00:00",
+   "creator_id": "0b4deb56-278b-425a-a7a8-add75f56cfe6",
+   "pipeline": {
+      "tasks": [
+         {
+            "id": "6a534be6d63b4a729ef55cca",
+            "title": "Dataset",
+            "task_type": "dataset"
+         },
+         {
+            "id": "6a534be6d63b4a729ef55ccc",
+            "title": "Detection",
+            "task_type": "detection",
+            "labels": [
+               {
+                  "id": "6a534be6d63b4a729ef55cce",
+                  "name": "gold",
+                  "is_anomalous": false,
+                  "color": "#548fadff",
+                  "hotkey": "",
+                  "is_empty": false,
+                  "group": "Detection labels",
+                  "parent_id": null,
+                  "is_background": false
+               },
+               {
+                  "id": "6a534be6d63b4a729ef55ccf",
+                  "name": "copper",
+                  "is_anomalous": false,
+                  "color": "#cc94daff",
+                  "hotkey": "",
+                  "is_empty": false,
+                  "group": "Detection labels",
+                  "parent_id": null,
+                  "is_background": false
+               },
+               {
+                  "id": "6a534be6d63b4a729ef55cd0",
+                  "name": "silver",
+                  "is_anomalous": false,
+                  "color": "#ff5662ff",
+                  "hotkey": "",
+                  "is_empty": false,
+                  "group": "Detection labels",
+                  "parent_id": null,
+                  "is_background": false
+               },
+               {
+                  "id": "6a534be6d63b4a729ef55cd1",
+                  "name": "iron",
+                  "is_anomalous": false,
+                  "color": "#f15b85ff",
+                  "hotkey": "",
+                  "is_empty": false,
+                  "group": "Detection labels",
+                  "parent_id": null,
+                  "is_background": false
+               },
+               {
+                  "id": "6a534be6d63b4a729ef55cd5",
+                  "name": "No object",
+                  "is_anomalous": false,
+                  "color": "#000000ff",
+                  "hotkey": "",
+                  "is_empty": true,
+                  "group": "No object",
+                  "parent_id": null,
+                  "is_background": false
+               }
+            ],
+            "label_schema_id": "6a534be6d63b4a729ef55cd7"
+         }
+      ],
+      "connections": [
+         {
+            "from": "6a534be6d63b4a729ef55cca",
+            "to": "6a534be6d63b4a729ef55ccc"
+         }
+      ]
+   },
+   "thumbnail": "/api/v1/organizations/3df91518-e3ef-412b-98af-b363eb2e2af2/workspaces/b48bfeab-5e8f-4246-9505-7b9d75f8c2aa/projects/6a534be6d63b4a729ef55cc9/thumbnail",
+   "performance": {
+      "score": 0.7676161919040478,
+      "task_performances": [
+         {
+            "task_id": "6a534be6d63b4a729ef55ccc",
+            "score": {
+               "value": 0.7676161919040478,
+               "metric_type": "F-Measure"
+            }
+         }
+      ]
+   },
+   "storage_info": {},
+   "datasets": [
+      {
+         "id": "6a534be6d63b4a729ef55cd2",
+         "name": "Dataset",
+         "use_for_training": true,
+         "creation_time": "2026-07-12T08:10:14.730000+00:00"
+      }
+   ]
+}

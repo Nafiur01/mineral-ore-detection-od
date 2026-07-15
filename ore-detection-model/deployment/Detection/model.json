@@ -1,0 +1,34 @@
+{
+   "id": "6a53832888c6f03d6e6f1076",
+   "name": "ATSS-MobileNetV2 OpenVINO INT8",
+   "version": 1,
+   "creation_date": "2026-07-12T12:06:00.912000+00:00",
+   "model_format": "OpenVINO",
+   "precision": [
+      "INT8"
+   ],
+   "has_xai_head": false,
+   "target_device": "CPU",
+   "target_device_type": null,
+   "performance": {
+      "score": 0.7767857142857142
+   },
+   "size": 3908334,
+   "latency": 0,
+   "fps_throughput": 0,
+   "optimization_type": "POT",
+   "optimization_objectives": {},
+   "model_status": "SUCCESS",
+   "configurations": [
+      {
+         "name": "sample_size",
+         "value": 300
+      }
+   ],
+   "lifecycle_stage": "active",
+   "previous_revision_id": "6a534ef1991262f78ecdda19",
+   "previous_trained_revision_id": "6a534ef1991262f78ecdda19",
+   "optimization_methods": [
+      "QUANTIZATION"
+   ]
+}

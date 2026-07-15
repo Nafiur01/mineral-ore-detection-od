@@ -1,0 +1,8 @@
+{
+   "model_parameters": {
+      "labels": "gold copper silver iron",
+      "label_ids": "6a534be6d63b4a729ef55cce 6a534be6d63b4a729ef55ccf 6a534be6d63b4a729ef55cd0 6a534be6d63b4a729ef55cd1"
+   },
+   "model_type": "ssd",
+   "task_type": "detection"
+}
