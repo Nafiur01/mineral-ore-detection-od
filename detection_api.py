@@ -69,7 +69,7 @@ def home():
           @keyframes spin { to { transform: rotate(360deg); } }
           #result { margin-top: 0; }
           #result img { border: 1px solid #ddd; border-radius: 8px;
-                        max-width: none; width: max-content; height: auto; display: block; }
+                        max-width: 1024px; width: max-content; height: auto; display: block; }
           .layout { display: flex; gap: 1.5rem; align-items: flex-start; margin-top: 1.25rem; }
           .sidebar { flex: 0 0 500px; position: sticky; top: 1rem; }
           .preview { flex: 1; min-width: 0; margin:0 }
