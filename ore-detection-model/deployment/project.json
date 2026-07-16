@@ -1,25 +1,25 @@
 {
-   "id": "6a534be6d63b4a729ef55cc9",
-   "name": "improved-mining-ore-real-2",
-   "creation_time": "2026-07-12T08:10:14.730000+00:00",
+   "id": "6a587d2ed63b4a729ef55dd1",
+   "name": "rock-detection",
+   "creation_time": "2026-07-16T06:41:50.267000+00:00",
    "creator_id": "0b4deb56-278b-425a-a7a8-add75f56cfe6",
    "pipeline": {
       "tasks": [
          {
-            "id": "6a534be6d63b4a729ef55cca",
+            "id": "6a587d2ed63b4a729ef55dd2",
             "title": "Dataset",
             "task_type": "dataset"
          },
          {
-            "id": "6a534be6d63b4a729ef55ccc",
+            "id": "6a587d2ed63b4a729ef55dd4",
             "title": "Detection",
             "task_type": "detection",
             "labels": [
                {
-                  "id": "6a534be6d63b4a729ef55cce",
-                  "name": "gold",
+                  "id": "6a5883eed63b4a729ef55e0e",
+                  "name": "iron_ore",
                   "is_anomalous": false,
-                  "color": "#548fadff",
+                  "color": "#9d3b1aff",
                   "hotkey": "",
                   "is_empty": false,
                   "group": "Detection labels",
@@ -27,8 +27,41 @@
                   "is_background": false
                },
                {
-                  "id": "6a534be6d63b4a729ef55ccf",
-                  "name": "copper",
+                  "id": "6a587d2ed63b4a729ef55dd6",
+                  "name": "gray_sandstone",
+                  "is_anomalous": false,
+                  "color": "#f7dab3ff",
+                  "hotkey": "",
+                  "is_empty": false,
+                  "group": "Detection labels",
+                  "parent_id": null,
+                  "is_background": false
+               },
+               {
+                  "id": "6a587d2ed63b4a729ef55dd7",
+                  "name": "iron_mudstone",
+                  "is_anomalous": false,
+                  "color": "#26518eff",
+                  "hotkey": "",
+                  "is_empty": false,
+                  "group": "Detection labels",
+                  "parent_id": null,
+                  "is_background": false
+               },
+               {
+                  "id": "6a587d2ed63b4a729ef55dd8",
+                  "name": "shale",
+                  "is_anomalous": false,
+                  "color": "#ff7d00ff",
+                  "hotkey": "",
+                  "is_empty": false,
+                  "group": "Detection labels",
+                  "parent_id": null,
+                  "is_background": false
+               },
+               {
+                  "id": "6a587d2ed63b4a729ef55dd9",
+                  "name": "white_limestone",
                   "is_anomalous": false,
                   "color": "#cc94daff",
                   "hotkey": "",
@@ -38,10 +71,10 @@
                   "is_background": false
                },
                {
-                  "id": "6a534be6d63b4a729ef55cd0",
-                  "name": "silver",
+                  "id": "6a587d2ed63b4a729ef55dda",
+                  "name": "red_breccia",
                   "is_anomalous": false,
-                  "color": "#ff5662ff",
+                  "color": "#edb200ff",
                   "hotkey": "",
                   "is_empty": false,
                   "group": "Detection labels",
@@ -49,10 +82,10 @@
                   "is_background": false
                },
                {
-                  "id": "6a534be6d63b4a729ef55cd1",
-                  "name": "iron",
+                  "id": "6a587d2ed63b4a729ef55ddb",
+                  "name": "yellow_siltstone",
                   "is_anomalous": false,
-                  "color": "#f15b85ff",
+                  "color": "#9b5de5ff",
                   "hotkey": "",
                   "is_empty": false,
                   "group": "Detection labels",
@@ -60,7 +93,7 @@
                   "is_background": false
                },
                {
-                  "id": "6a534be6d63b4a729ef55cd5",
+                  "id": "6a587d2ed63b4a729ef55ddf",
                   "name": "No object",
                   "is_anomalous": false,
                   "color": "#000000ff",
@@ -71,24 +104,24 @@
                   "is_background": false
                }
             ],
-            "label_schema_id": "6a534be6d63b4a729ef55cd7"
+            "label_schema_id": "6a5883eed63b4a729ef55e12"
          }
       ],
       "connections": [
          {
-            "from": "6a534be6d63b4a729ef55cca",
-            "to": "6a534be6d63b4a729ef55ccc"
+            "from": "6a587d2ed63b4a729ef55dd2",
+            "to": "6a587d2ed63b4a729ef55dd4"
          }
       ]
    },
-   "thumbnail": "/api/v1/organizations/3df91518-e3ef-412b-98af-b363eb2e2af2/workspaces/b48bfeab-5e8f-4246-9505-7b9d75f8c2aa/projects/6a534be6d63b4a729ef55cc9/thumbnail",
+   "thumbnail": "/api/v1/organizations/3df91518-e3ef-412b-98af-b363eb2e2af2/workspaces/b48bfeab-5e8f-4246-9505-7b9d75f8c2aa/projects/6a587d2ed63b4a729ef55dd1/thumbnail",
    "performance": {
-      "score": 0.7715736040609137,
+      "score": 0.875912408759124,
       "task_performances": [
          {
-            "task_id": "6a534be6d63b4a729ef55ccc",
+            "task_id": "6a587d2ed63b4a729ef55dd4",
             "score": {
-               "value": 0.7715736040609137,
+               "value": 0.875912408759124,
                "metric_type": "F-Measure"
             }
          }
@@ -97,10 +130,10 @@
    "storage_info": {},
    "datasets": [
       {
-         "id": "6a534be6d63b4a729ef55cd2",
+         "id": "6a587d2ed63b4a729ef55ddc",
          "name": "Dataset",
          "use_for_training": true,
-         "creation_time": "2026-07-12T08:10:14.730000+00:00"
+         "creation_time": "2026-07-16T06:41:50.267000+00:00"
       }
    ]
 }

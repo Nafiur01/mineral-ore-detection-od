@@ -1,7 +1,7 @@
 {
    "model_parameters": {
-      "labels": "gold copper silver iron",
-      "label_ids": "6a534be6d63b4a729ef55cce 6a534be6d63b4a729ef55ccf 6a534be6d63b4a729ef55cd0 6a534be6d63b4a729ef55cd1"
+      "labels": "iron_ore gray_sandstone iron_mudstone shale white_limestone red_breccia yellow_siltstone",
+      "label_ids": "6a5883eed63b4a729ef55e0e 6a587d2ed63b4a729ef55dd6 6a587d2ed63b4a729ef55dd7 6a587d2ed63b4a729ef55dd8 6a587d2ed63b4a729ef55dd9 6a587d2ed63b4a729ef55dda 6a587d2ed63b4a729ef55ddb"
    },
    "model_type": "ssd",
    "task_type": "detection"
